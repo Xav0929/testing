@@ -9,7 +9,7 @@ while True:
 
     choice = input("Choose an option: ")
 
-    if choice == "1":
+    if choice == "4":
         file_name = input("Enter file name to upload: ")
         cloud_storage.append(file_name)
         print(f"'{file_name}' has been uploaded.")
